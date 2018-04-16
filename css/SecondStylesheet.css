@@ -1,0 +1,226 @@
+body{
+	margin:0;
+	
+}
+.nav{
+	
+	
+	
+}
+.navbar-default{
+	background-image: none;
+		
+	
+	border: none;
+	
+}
+.navbarCustom{
+	
+	
+}
+.limenu:hover >ul{
+	display: block;
+}
+
+.sliderContainer{
+	position:relative;
+	margin:0;
+	padding:0;
+	width:100%;
+	heigth:100%;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgba(34, 49, 63, 0.5);
+	
+}
+.sliderContainer:before {
+    content:"";
+    display:block;
+    padding-top:66.6%;
+}
+
+.slider img:first{
+	
+	display: none;
+	width:100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	
+}
+.slider{
+	position: absolute;
+	width:100%;
+	height: auto;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	top:0;
+    left:0;
+	
+}
+.jStart{
+	color: rgb(0,186,186);
+	background: #f7f9fb;
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+}
+.jStartinner{
+	display: inline-block;
+	
+}
+.jStart h3{
+	color:red;
+	
+}
+h2.jStartinner{
+	
+	color:red;
+}
+
+
+footer{
+	background:#333;
+	color: #eee;
+	
+}
+
+ul.unstyled{
+	list-style:none;
+	padding:20px;
+	
+}
+.unstyled li{
+	
+	padding:5px;
+	
+}
+
+.slider li img{
+	display: none;
+	width:100%;
+	height: auto;
+}
+.slider ul{
+	position: absolute;
+	
+}
+
+.animateImg {
+	
+	animation: ScaleEffect 10s ease-In-Out;
+	-webkit-transform-origin: right top;
+	-moz-transform-origin: right top;
+	-ms-transform-origin: right top;
+	transform-origin: right top;
+}
+.animateImg1 {
+	
+	animation: ScaleEffect 10s ease-In-Out;
+	-webkit-transform-origin: left top;
+	-moz-transform-origin: left top;
+	-ms-transform-origin: left top;
+	transform-origin: left top;
+}
+
+.animateImg2 {
+	
+	animation: ScaleEffect 10s ease-In-Out;
+	-webkit-transform-origin: right bottom;
+	-moz-transform-origin: right bottom;
+	-ms-transform-origin: right bottom;
+	transform-origin: right bottom;
+}
+
+.animateImg3 {
+	
+	animation: ScaleEffect 10s ease-In-Out;
+	-webkit-transform-origin: center top;
+	-moz-transform-origin: center top;
+	-ms-transform-origin: center top;
+	transform-origin: center top;
+}
+
+.animateImg4 {
+	
+	animation: ScaleEffect 10s ease-In-Out;
+	-webkit-transform-origin: left center;
+	-moz-transform-origin: left center;
+	-ms-transform-origin: left center;
+	transform-origin: left center;
+}
+
+.animateImg5 {
+	
+	animation: ScaleEffect 10s ease-In-Out;
+	-webkit-transform-origin: left top;
+	-moz-transform-origin: left top;
+	-ms-transform-origin: left top;
+	transform-origin: left top;
+}
+
+
+.animateImg6 {
+	
+	animation: ScaleEffect 10s ease-In-Out;
+	-webkit-transform-origin: left top;
+	-moz-transform-origin: left top;
+	-ms-transform-origin: left top;
+	transform-origin: left top;
+}
+
+
+@keyframes ScaleEffect {
+	from {
+		
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);
+		-ms-transform: scale(1);
+		-o-transform: scale(1);
+		transform: scale(1);
+		}
+		
+	to{
+		-webkit-transform: scale(1.5);
+		-moz-transform: scale(1.5);
+		-ms-transform: scale(1.5);
+		-o-transform: scale(1.5);
+		transform:scale(1.5);
+		}
+	
+}
+
+.sliderOut{
+	
+	position: relative;
+}
+
+.sliderIn{
+	
+	position: absolute;
+	width:100%;
+}
+
+.slideWrite{
+	position: absolute;
+	bottom: 35%; 
+	left: -120%; 
+	width: 100%; 
+	font-weight: bold; 
+	color: white;
+}
+
+.slideWrite h2{
+	font-weight: 700;
+	font-size: 32px;
+	font-family: sans-serif;
+	line-height: 39px;
+	color: #ffffff;
+	text-shadow: 2px 4px #000000
+}
+
+
+
+
+

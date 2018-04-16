@@ -1,0 +1,20 @@
+set up your xxamp server
+
+open the xxamp app and start apache and mysql
+
+put the project folder in the htdocs folder of the xxamp folder
+note that xxamp is recomeded as the server to be used 
+
+
+
+now copy the installation link below and paste it in your browser
+for installation    ---     http://localhost/telemedicine/install/install.php
+the database is set
+
+
+now lets set the project
+
+Now look for the index folder in the telemedicine folder.
+Copy the index.php file and paste it in the main telemedicine file (i.e where procedure.txt is)
+
+now run the project  ----   http://localhost/telemedicine

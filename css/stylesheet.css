@@ -1,0 +1,432 @@
+
+/*doctors page*/
+#appointmentTimeTable{
+	width:5%;
+	padding:0; margin:0;
+   
+}
+
+#appointmentDateTable, #phoneNumberTable {
+	width:7%;
+   padding:0; margin:0;
+   
+}
+
+#clientname, #emailTable, #purposeTable, #noteTable, #bookingDateTimeTable{
+	width:12.8%;
+   padding:0; margin:0;
+   
+}
+
+#index {
+	width:2%;
+}
+table#display td{
+    border: 1px solid black;
+    padding:0 4px;
+
+}
+#display tr th{
+    text-align: center;
+}
+#clientnameBtnTable{
+	width:100%;
+}
+
+/* CSS Document */
+body {
+    font:14px arial;
+    color: #222;
+    text-align:center;
+    padding:0px; }
+  
+form, p, span {
+    margin:0;
+    padding:0; }
+  
+input { font:14px arial; }
+  
+.logout a {
+    color:#0000FF;
+    text-decoration:none; }
+  
+    a:hover { text-decoration:underline; }
+  
+#wrapper, #loginform {
+    margin:0 auto;
+    padding-bottom:25px;
+    background:#EBF4FB;
+    width:800px;
+    border:1px solid #ACD8F0; }
+  
+#loginform { padding-top:18px; }
+  
+    #loginform p { margin: 5px; }
+  
+#chatbox {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:470px;
+    width:750px;
+    border:1px solid #ACD8F0;
+    overflow:auto; }
+  
+#usermsg {
+    width:395px;
+    border:1px solid #ACD8F0; }
+  
+#submit { width: 60px; }
+  
+.error { color: #ff0000; }
+  
+#menu { padding:12.5px 25px 12.5px 25px; }
+  
+.welcome { float:left; }
+  
+.logout { float:right; }
+  
+.msgln { margin:0 0 2px 0; }
+
+
+
+
+/*medical service box */
+/* Medical Services Box*/
+
+.medical-services-box {
+    position: relative;
+    z-index: 9999;
+}
+.medical-services-box ul {
+    margin: 0;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    border: 1px solid #053c9e;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    padding: 0 15px 30px 15px;
+}
+.medical-services-box ul[data-box-style="vertical"] {
+    flex-wrap: wrap;
+}
+.medical-services-box ul > li {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 0 15px;
+    margin-top: 30px;
+    text-align: center;
+    border-right: 1px solid #0d4fab;
+    -ms-flex-preferred-size: 16.667%;
+    -webkit-flex-basis: 16.667%;
+    flex-basis: 16.667%;
+    width: 16.667%;
+    float:left;
+}
+.medical-services-box ul > li:hover img{ color:red;}
+.medical-services-box ul > li > figure,
+.medical-services-box ul > li > h4 {
+    width: 100%;
+}
+.medical-services-box ul[data-box-style="vertical"] > li {
+    border-right: 0;
+    border-bottom: 1px solid #0d4fab;
+    padding: 15px 0;
+}
+.medical-services-box ul > li:last-child {
+    border: 0;
+}
+.medical-services-box ul > li img {
+    width: 50px;
+    height: 50px;
+}
+.medical-services-box ul > li h4 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #138fb8;
+    margin-bottom: 0;
+}
+
+/* appointment page*/
+   
+.thebody{
+    position:relative;
+    margin:100px;
+    margin-top:100px;
+    margin-bottom: 30px;
+    padding:0;
+    overflow: hidden;
+    background-image: url("../images/chatting1.jpg");
+    background-repeat: no-repeat;
+   background-color: #cccccc;
+ }
+ .bookingtable {
+    border-collapse:separate; 
+    border-spacing:1em;
+    margin-left: 230px;
+ }
+ /*doctor login page */
+ .doclogbody{
+    position:relative;
+    margin:0px;
+    margin-top:40px;
+    min-height: 600px;
+    padding:0;
+    overflow: hidden;
+    background-image: url("../images/doclogpage.jpg");
+   background-color: #cccccc;
+ }
+ .doclogdiv{
+    position:relative;
+    margin:200px;
+ }
+/* app login */
+#loginform{
+     position:relative;
+    margin: 40px 150px 40px 150px;
+    min-height: 600px;
+    width:80%;
+    padding:0;
+    overflow: hidden;
+    background-image: url("../images/patlogin.jpg");
+   background-color: #cccccc;
+ }
+#cloform{
+    position:relative;
+    margin:200px;
+}
+.aboutp{
+     font-size:20px;
+     font-family:san-serif;
+     line-height: 40px;
+}
+
+/* doctors page*/
+.docspagebody{
+    margin-top: 50px;
+    min-height: 600px;
+    width:100%;
+    padding:0;
+    overflow: hidden; 
+}
+
+.docspagediv {
+  position:relative;
+    margin: 100px;
+    min-height: 600px;
+    width:80%;
+    padding:0;
+    overflow: hidden;
+}
+.clientsearch{
+    position:relative;
+    margin-bottom: 20px;
+}
+.buttonToChat{
+    background:none;
+    color:inherit;
+    border:none;
+    padding:0;
+    cursor: pointer;
+    margin-top: 28px;
+    border-bottom: 1px solid #444 
+}
+.cardiologydef{
+    background-color: #c4c9d1;
+    height:80px;
+    border-radius: 4px;
+}
+.cardiologydef p{
+    position: relative;
+    margin-top: auto;
+    color: #000000;
+    text-align: left;
+    line-height:30px;
+    font-weight: 300;
+    font-size: 18px
+}
+.cardiologyp{
+    background-color: #c4c9d1;
+    height:150px;
+    border-radius: 4px;
+}
+.cardiologyp p {
+    position: relative;
+    text-align: left;
+    margin-top:20px;
+    line-height:30px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+}
+.cardiolist p{
+    text-align: left;
+}
+.cardiologyp ul li{
+    text-align: left;
+    padding-top: 6px;
+}
+/* neurology*/
+
+.cardiologyul ul li {
+   text-align: left;
+    padding-top: 6px;
+}
+
+.cardiologyul {
+    text-align: left;
+    background-color: #c4c9d1;
+    border-radius: 4px;
+    height:250px;
+}
+
+/* cancer treatment */
+.cardiologyul1 ul li {
+   text-align: left;
+    padding-top: 15px;
+}
+.cardiologyul1 {
+    text-align: left;
+    background-color: #c4c9d1;
+    border-radius: 4px;
+    height:250px;
+}
+/* preventive health care*/
+.cardiologyulp ul li {
+   text-align: left;
+    padding-top: 13px;
+}
+.cardiologyulp {
+    text-align: left;
+    background-color: #c4c9d1;
+    border-radius: 4px;
+    height:150px;
+}
+.cardiologypp{
+    background-color: #c4c9d1;
+    height:80px;
+    border-radius: 4px;
+}
+
+.cardiologypp p {
+    position: relative;
+    text-align: left;
+    margin-top:20px;
+    line-height:30px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+}
+
+
+/* generic clinic */
+.generictable {
+    margin-left: 150px;
+    border-spacing: 8px;
+    border-collapse: separate;
+    border-color:#1355bf;
+}
+
+/* telemedicine page */
+.telelow{
+    margin:30px;
+    background-color: #c4c9d1;
+     border-radius: 13px;
+}
+.telelow ul{
+    text-align: left;
+
+}
+
+.telelow p{
+     position: relative;
+    text-align: left;
+    margin-top:20px;
+    margin-left:30px;
+    margin-left:20px;
+    line-height:30px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+}
+
+.telelow ul li{
+    text-align: left;
+    line-height:30px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+}
+/* bmi page */
+.bmidiv{
+    position: relative;
+    margin-top: 100px;
+    position:relative;
+    margin: 40px 150px 40px 150px;
+    min-height: 600px;
+    width:80%;
+    padding:0;
+    overflow: hidden;
+   background-color: #cccccc;
+   border-radius: 15px;
+}
+
+.bmiform{
+ margin-top:170px;
+ margin-right: 240px;
+}
+/* surgical page */
+.docspagediv1 {
+  position:relative;
+    margin: 100px;
+    min-height: 600px;
+    width:80%;
+    padding:0;
+    overflow: hidden;
+    text-align:left;
+}
+.docspagediv1 p {
+    text-align:left;
+    line-height:30px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+
+}
+.docspagediv1 h2{
+    text-align:left;
+    line-height:30px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.appointdate{
+    margin-top:80px;
+    margin-left: 20%;
+}
+
+.appointdate p{
+    font-weight: 500;
+    font-size: 30px;
+    color:;
+}
